@@ -16,7 +16,7 @@ jobs:
           java-version: '8'
       - uses: gradle/actions/setup-gradle@v3
         with:
-          gradle-version: '6.8.3'
+          gradle-version: '7.3.3'
           cache-disabled: true
       - name: Clear ForgeGradle generated caches
         run: rm -rf ~/.gradle/caches/forge_gradle
