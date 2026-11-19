@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All Rights Reserved"
+[[mods]]
+modId="masterme4a"
+version="1.0.0"
+displayName="Masterme4a M4 Visual"
+description='''Purple visual client interface and cosmetic HUD utilities.'''
+[[dependencies.masterme4a]]
+modId="forge"
+mandatory=true
+versionRange="[36.2.0,37)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.masterme4a]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.5,1.17)"
+ordering="NONE"
+side="BOTH"
