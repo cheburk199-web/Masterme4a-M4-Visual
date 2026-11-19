@@ -17,8 +17,11 @@ jobs:
       - uses: gradle/actions/setup-gradle@v3
         with:
           gradle-version: '6.8.3'
+          cache-disabled: true
+      - name: Clear ForgeGradle generated caches
+        run: rm -rf ~/.gradle/caches/forge_gradle
       - name: Build Forge mod
-        run: gradle --no-daemon build
+        run: gradle --no-daemon --refresh-dependencies build
       - uses: actions/upload-artifact@v4
         with:
           name: Masterme4a-M4-Visual-Forge-1.16.5
