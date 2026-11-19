@@ -1,10 +1,10 @@
 package com.masterme4a;
 
 import net.minecraft.client.settings.KeyBinding;
+import net.minecraftforge.client.event.InputEvent;
 import net.minecraftforge.fml.client.registry.ClientRegistry;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.gameevent.InputEvent;
 import org.lwjgl.glfw.GLFW;
 
 @Mod.EventBusSubscriber(modid="masterme4a", bus=Mod.EventBusSubscriber.Bus.FORGE)
